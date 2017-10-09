@@ -30,3 +30,7 @@ function removeElementFromBeginningOfArray(array){
   var subBeg = array.slice(-2)
   return subBeg
 }
+function destructivelyRemoveElementFromEndOfArray(array){
+array.pop()
+return array
+}
